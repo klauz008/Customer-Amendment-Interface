@@ -113,9 +113,9 @@ a{
 	transition: .3s;
 }
 
-a:hover{
+/* a:hover{
 	color: rgba(255, 0, 0, 0.842);
-}
+} */
 
 .btn{
 	display: block;
@@ -131,7 +131,8 @@ a:hover{
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	margin: 1rem 0;
-	
+	text-decoration: none;
+
 }
 .btn:hover{
 	background-position: right;
@@ -168,7 +169,7 @@ a:hover{
 		display: none;
 	}
 
-	.login-content{
-		justify-content: center;
-	}
+	/* .login-content{
+		justify-content: right;
+	} */
 }

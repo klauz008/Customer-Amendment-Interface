@@ -18,17 +18,16 @@
         STERLING
         </a>
         <div class="user">
-            <a class="navbar-brand" href="#"><img src="../Assets/images/avatar.svg" width="40" height="40" alt="User"></a>   
+            <a class="navbar-brand" href="#"><img src="../Assets/images/avatar.svg" width="50" height="50" alt="User"></a>   
         </div>
     </nav>
     <div class="container-fluid">
         <h5>Welcome NICHOLAS,</h5>
     </div>
-    <div class="col s2"></div>
-    <div class="col s6 m7">
+    
+    <div class="col s12 m7">
         <h2 class="header">Is this your BVN?</h2>
         <div class="card horizontal">
-            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
             <div class="card-content">
               <p>22273872720</p>
             </div>
@@ -36,19 +35,34 @@
               <a href="#">not your BVN?</a>
             </div>
         </div>
-      </div>
+    </div>
+    <div class="col s12 m7">
+        <h2 class="header">Please fill in your correct BIRTHDATE</h2>
+        <div class="card horizontal">   
+            <div class="card-content">
+                <input type="text" class="datepicker" placeholder="Birthdate">
+            </div>
+        </div>
+        <div class="button">
+           <a class="waves-effect waves-light btn-large float-right red" href="Customer/authentication.html"><i class="material-icons left">send</i>Continue</a>
+        </div>
+    </div>
     
   
     
 
 
 
-
-
+   
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <!-- initializations -->
+<script> $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });</script>
+
 </body>
 </html>

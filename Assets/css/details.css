@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.card .card-image .card-title a{
+    text-decoration: none;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 24px;
+    color: #b50721;
+    background-color: transparent;
+}
+.card .card-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+   
+    

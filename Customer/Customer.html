@@ -43,11 +43,38 @@
                 <input type="text" class="datepicker" placeholder="Birthdate">
             </div>
         </div>
-        <div class="button">
+        <!-- <div class="button">
            <a class="waves-effect waves-light btn-large float-right red" href="..\Customer\authentication.html"><i class="material-icons left">send</i>Continue</a>
-        </div>
+        </div> -->
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Get OTP</a>
     </div>
-    
+    <div id="modal1" class="modal">
+        <div class="container">
+            <div class="modal-content">
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                    <img src="../Assets/images/Logo.jpg" width="40" height="40" class="d-inline-block align-bottom" alt="">
+                    STERLING
+                    </a>
+                </nav>
+                <h2>AUTHENTICATION</h2>
+                <p>Please check your email/sms for an OTP and enter it below </p>
+                <div class="row">
+                    <form class="col s6">
+                      <div class="row">
+                        <div class="input-field col-sm-6">
+                          <input id="input_text" type="text" data-length="10">
+                          <label for="input_text">OTP</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="..\Customer\details.html" class="modal-close waves-effect waves-green btn-flat">continue</a>
+                        </div>
+                      </div>
+                    </form>
+                    
+              </div>
+        </div>
+      </div>
   
     
 
@@ -62,6 +89,9 @@
  <!-- initializations -->
 <script> $(document).ready(function(){
     $('.datepicker').datepicker();
+  });</script>
+   <script> $(document).ready(function(){
+    $('.modal').modal();
   });</script>
 
 </body>

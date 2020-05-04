@@ -28,3 +28,35 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+    /* this is for the modal */
+
+nav a {
+    color: #6f5c5c;
+    font-weight: 700;
+}      
+.modal .modal-close {
+    background-color: rgb(197, 19, 19);
+    color: seashell;
+    margin: 30px;
+}
+.modal .modal-close a:hover { 
+    text-decoration: none;
+    background-color: rgb(197, 19, 19);
+}
+
+h2 {
+    padding: 10px 0px;
+}
+.input-field>label {
+    padding: 0px 50px;
+}
+.btn {
+    background-color: rgb(197, 19, 19);
+    margin: 10px 600px;
+    color: seashell;
+}
+.btn:hover {
+    text-decoration:none;
+    background-color: rgb(197, 19, 19);
+    color: seashell;
+}

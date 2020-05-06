@@ -109,7 +109,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 40px 50px 0 70px;
+    padding: 10px 40px 0 50px;
 }
 
 footer .top-section {
@@ -140,4 +140,8 @@ footer .top-section h4 {
 
 footer .top-section a:hover {
     color: rgb(202, 187, 187);
+}
+p a {
+  text-decoration: none;
+  color: white;
 }

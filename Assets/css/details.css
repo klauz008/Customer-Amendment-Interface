@@ -5,6 +5,10 @@
 
 }
 
+.d-inline-block {
+    margin-bottom: 20px;
+    display: inline-block!important;
+}
 .card .card-image .card-title a{
     text-decoration: none;
     bottom: 0;

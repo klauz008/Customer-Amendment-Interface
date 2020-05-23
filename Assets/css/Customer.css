@@ -5,6 +5,10 @@
     
 }
 
+.d-inline-block {
+    margin-bottom: 20px;
+    display: inline-block!important;
+}
 h5 {
     color: maroon;
     text-align: center;
